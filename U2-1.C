@@ -1,0 +1,10 @@
+//unit 2
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	clrscr();
+	printf("hello world");
+	getch();
+}

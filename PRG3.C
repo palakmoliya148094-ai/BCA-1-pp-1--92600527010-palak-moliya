@@ -1,0 +1,12 @@
+//wap which convert gram into kilogram
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	float kg;
+	printf("enter mass in kilograms");
+	scanf("%f, &kg");
+	printf("\n mass in grams: %f,kg*1000");
+	getch();
+}
