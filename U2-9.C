@@ -1,0 +1,24 @@
+//wap to interchange two numbers without using third veriable
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int x,y;
+	clrscr();
+	printf("\n enter value of x :");
+	scanf("%d",&x);
+
+	printf("\n enter value of y :");
+	scanf("%d",&y);
+
+	x=x+y;
+	y=x-y;
+	x=x-y;
+
+	printf("\n after interchange\n");
+	printf("x=%d\n",x);
+	printf("y=%d\n",y);
+	getch();
+
+}
